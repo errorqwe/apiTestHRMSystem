@@ -1,0 +1,6 @@
+{
+"add_emp":{"username":"username28255","mobile":"15501820001","status_code":200,"success":true,"code":10000,"message":"操作成功"},
+  "query_emp":{"status_code":200,"success":true,"code":10000,"message":"操作成功"},
+  "modify_emp":{"username":"13455555555","status_code":200,"success":true,"code":10000,"message":"操作成功"},
+  "delete_emp":{"status_code":200,"success":true,"code":10000,"message":"操作成功"}
+}

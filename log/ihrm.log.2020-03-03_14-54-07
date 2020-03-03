@@ -1,0 +1,18 @@
+2020-03-03 14:54:04,507 INFO [root] [__init__.py(<module>:4)] - 我是一条日志信息
+2020-03-03 14:54:04,746 INFO [root] [test_employee.py(test01_emp_success:23)] - {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6878eda8-f5c3-4f0d-bccb-7ded5f875fea'}
+2020-03-03 14:54:04,747 INFO [root] [test_employee.py(test01_emp_success:27)] - Bearer 6878eda8-f5c3-4f0d-bccb-7ded5f875fea
+2020-03-03 14:54:04,876 INFO [root] [test_employee.py(test02e_add_emp:38)] - 添加员工:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234733766844698624'}}
+2020-03-03 14:54:04,877 INFO [root] [test_employee.py(test02e_add_emp:46)] - 1234733766844698624
+2020-03-03 14:54:05,017 INFO [root] [test_employee.py(test03_query_emp:53)] - 查询员工:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234733766844698624', 'mobile': '15501820001', 'username': 'username28255', 'password': 'bf336107da6daac9f7c463f82f151c00', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-02T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 14:54:05,149 INFO [root] [test_employee.py(test04_modify_emp:62)] - 修改员工:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234733766844698624'}}
+2020-03-03 14:54:05,587 INFO [root] [test_employee.py(test05_delete_emp:82)] - 删除员工:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-03 14:54:05,717 INFO [root] [test_login.py(test01_login_success:19)] - 登陆成功:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1046d5dd-7173-479c-9615-acd6ccaeba9f'}
+2020-03-03 14:54:05,860 INFO [root] [test_login.py(test02_username_is_not_exist:25)] - 用户名不存在:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:54:06,004 INFO [root] [test_login.py(test03_password_is_error:31)] - 密码错误:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:54:06,132 INFO [root] [test_login.py(test04_none_params:37)] - 无参:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-03 14:54:06,289 INFO [root] [test_login.py(test05_username_is_null:43)] - 用户名为空:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:54:06,439 INFO [root] [test_login.py(test06_password_is_empty:49)] - 密码为空:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:54:06,589 INFO [root] [test_login.py(test07_less_mobile:55)] - 少参-缺少mobile:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:54:06,723 INFO [root] [test_login.py(test08_less_password:61)] - 少参-缺少password:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 14:54:06,873 INFO [root] [test_login.py(test09_add_params:68)] - 多参-增加1个参数:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '69fba0a6-6a51-4b63-8a41-df78cd5ece6f'}
+2020-03-03 14:54:07,008 INFO [root] [test_login.py(test10_error_params:74)] - 错误参数:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}

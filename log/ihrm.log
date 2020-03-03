@@ -1,0 +1,9 @@
+2020-03-03 14:59:40,955 INFO [root] [__init__.py(<module>:4)] - 我是一条日志信息
+2020-03-03 14:59:41,269 INFO [root] [test_employee.py(test01_emp_success:23)] - {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '4ddc7147-1be5-43e7-a6ee-288a748a7643'}
+2020-03-03 14:59:41,269 INFO [root] [test_employee.py(test01_emp_success:27)] - Bearer 4ddc7147-1be5-43e7-a6ee-288a748a7643
+2020-03-03 14:59:41,422 INFO [root] [test_employee.py(test02e_add_emp:38)] - 添加员工:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234735178412544000'}}
+2020-03-03 14:59:41,422 INFO [root] [test_employee.py(test02e_add_emp:46)] - 1234735178412544000
+2020-03-03 14:59:41,573 INFO [root] [test_employee.py(test03_query_emp:53)] - 查询员工:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234735178412544000', 'mobile': '15501820001', 'username': 'username28255', 'password': 'bf336107da6daac9f7c463f82f151c00', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-02T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 14:59:41,748 INFO [root] [test_employee.py(test04_modify_emp:62)] - 修改员工:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234735178412544000'}}
+2020-03-03 14:59:42,113 INFO [root] [test_employee.py(test04_modify_emp:75)] - 查询员工用户名为:('13455555555',)
+2020-03-03 14:59:42,264 INFO [root] [test_employee.py(test05_delete_emp:84)] - 删除员工:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
