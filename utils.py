@@ -141,4 +141,59 @@ class DBUtils:
         if self.conn:
             self.conn.close()
 
+# 添加部门
+def add_staff(filename):
+    with open(filename, encoding="utf8") as f:
+        jsonData = json.load(f)
+    result_list = []
+    result_list1 = []
+    add_data = jsonData.get("add_staff")
+    for case in add_data.values():
+        result_list.append(case)
+    result_list1.append(tuple(result_list))
+    return result_list1
+
+# 查询部门
+def query_staff(filename):
+    with open(filename, encoding="utf8") as f:
+        jsonData = json.load(f)
+    result_list = []
+    result_list1 = []
+    add_data = jsonData.get("query_staff")
+    for case in add_data.values():
+        result_list.append(case)
+    result_list1.append(tuple(result_list))
+    return result_list1
+
+# 修改部门
+def modify_staff(filename):
+    with open(filename, encoding="utf8") as f:
+        jsonData = json.load(f)
+    result_list = []
+    result_list1 = []
+    add_data = jsonData.get("modify_staff")
+    for case in add_data.values():
+        result_list.append(case)
+    result_list1.append(tuple(result_list))
+    return result_list1
+
+# 删除员工
+def delete_staff(filename):
+    with open(filename, encoding="utf8") as f:
+        jsonData = json.load(f)
+    result_list = []
+    result_list1 = []
+    add_data = jsonData.get("delete_staff")
+    for case in add_data.values():
+        result_list.append(case)
+    result_list1.append(tuple(result_list))
+    return result_list1
+
+
+if __name__ == "__main__":
+    filename = BASE_DIR + "/data/staff.json"
+    # print(add_staff(filename))
+    # print(query_staff(filename))
+    # print(modify_staff(filename))
+    # print(delete_staff(filename))
 
