@@ -15,7 +15,7 @@ suite.addTest(unittest.makeSuite(TestEmployee))
 
 suite.addTest(unittest.makeSuite(TestLogin))
 
-suite.addTest(unittest.makeSuite(TestStaff))
+# suite.addTest(unittest.makeSuite(TestStaff))
 
 # filename = app.BASE_DIR + "/report/report_{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
 
