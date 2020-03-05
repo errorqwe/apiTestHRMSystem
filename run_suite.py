@@ -7,7 +7,7 @@ from script.test_login import TestLogin
 import time
 import app
 # 实例化suite
-from script.test_staff import TestStaff
+# from script.test_staff import TestStaff
 
 suite = unittest.TestSuite()
 # 生成测试套件
