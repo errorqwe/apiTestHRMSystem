@@ -13,7 +13,9 @@ suite.addTest(unittest.makeSuite(TestEmployee))
 
 suite.addTest(unittest.makeSuite(TestLogin))
 
-filename = app.BASE_DIR + "/report/report_{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+# filename = app.BASE_DIR + "/report/report_{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+
+filename = app.BASE_DIR + "/report/ihrm.html".format
 
 with open(filename, "wb") as f:
     runner = HTMLTestRunner(stream=f, title="接口自动化测试", description="v1.0")
